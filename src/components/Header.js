@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   return (
     <header>
-      <h1>Marwin's favourite beers</h1>
+      <h1>{props.children}</h1>
     </header>
   );
 }

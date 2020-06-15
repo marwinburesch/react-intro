@@ -3,12 +3,11 @@ import Header from "./components/Header";
 import List from "./components/List";
 
 const beers = ["Punk IPA", "Hoevels", "Chainbreaker", "Elvis Juice"];
-const animals = ["Ant", "Sloth", "Beluga", "Lizarddoggo"];
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
+      <Header>Marwin's favourite beers</Header>
       <List items={beers} />
     </div>
   );
