@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
+import List from "./components/List";
 
-function App() {
+const beers = ["Punk IPA", "Hoevels", "Chainbreaker", "Elvis Juice"];
+const animals = ["Ant", "Sloth", "Beluga", "Lizarddoggo"];
+
+export default function App() {
   return (
     <div className="App">
       <Header />
+      <List items={beers} />
     </div>
   );
 }
-
-export default App;
